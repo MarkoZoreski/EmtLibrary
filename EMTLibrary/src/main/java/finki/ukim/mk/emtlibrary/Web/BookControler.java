@@ -1,12 +1,15 @@
 package finki.ukim.mk.emtlibrary.Web;
 
 import finki.ukim.mk.emtlibrary.Model.Book;
+import finki.ukim.mk.emtlibrary.Model.CategoryType;
 import finki.ukim.mk.emtlibrary.Service.BookService;
 import finki.ukim.mk.emtlibrary.dto.BookDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -51,4 +54,15 @@ public class BookControler {
         return ResponseEntity.badRequest().build();
     }
 
+    @GetMapping("/categories")
+    private List<String> findAllCategories() {
+        return Arrays.stream(CategoryType.values()).map(Enum::toString).collect(Collectors.toList());
+    }
+
+    @PutMapping("/markAsTaken/{id}")
+    public ResponseEntity<Book> markAsTaken(@PathVariable Long id){
+        return bookService.markAsTaken(id)
+                .map(book->ResponseEntity.ok().body(book))
+                .orElseGet(() -> ResponseEntity.badRequest().build());
+    }
 }

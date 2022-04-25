@@ -23,5 +23,5 @@ public interface BookService {
 
     void deleteById(Long id);
 
-    Book markAsTaken(Long id);
+    Optional<Book> markAsTaken(Long id);
 }
