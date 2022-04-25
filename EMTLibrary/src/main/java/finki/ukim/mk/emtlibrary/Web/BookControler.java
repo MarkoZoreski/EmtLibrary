@@ -42,6 +42,8 @@ public class BookControler {
 
     @PutMapping("/edit/{id}")
     public ResponseEntity<Book> save(@PathVariable Long id, @RequestBody BookDto bookDto) {
+        System.out.println(id);
+        System.out.println(bookDto);
         return this.bookService.edit(id, bookDto)
                 .map(book -> ResponseEntity.ok().body(book))
                 .orElseGet(() -> ResponseEntity.badRequest().build());

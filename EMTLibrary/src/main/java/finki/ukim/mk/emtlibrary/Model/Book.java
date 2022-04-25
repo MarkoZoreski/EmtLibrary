@@ -25,7 +25,6 @@ public class Book {
     private int availableCopies;
 
     public Book(String name, CategoryType category, Author author, int availableCopies) {
-        this.id = id;
         this.name = name;
         this.category = category;
         this.author = author;

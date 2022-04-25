@@ -69,7 +69,7 @@ public class BookServiceImpl implements BookService {
     @Override
     public Optional<Book> edit(Long id, BookDto bookDto) {
         Book book = this.bookRepository.findById(id).orElseThrow(BookNotFoundException::new);
-
+            System.out.println(book);
         book.setName(bookDto.getName());
         book.setCategory(bookDto.getCategory());
 
@@ -77,7 +77,7 @@ public class BookServiceImpl implements BookService {
                 .orElseThrow(AuthorNotFoundException::new);
         book.setAuthor(author);
 
-        book.setAvailableCopies(book.getAvailableCopies());
+        book.setAvailableCopies(bookDto.getAvailableCopies());
 
         return Optional.of(bookRepository.save(book));
     }
