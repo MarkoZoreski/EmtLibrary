@@ -18,7 +18,7 @@ link to EMTLibraryReactAPP: https://github.com/MarkoZoreski/EMTLibraryReactApp
 
 ### `npm start`
 
-5. If all the above steps are done correctly you should be able to view the application in a browser at the following URL: http://localhost:3000/
+5. If all the above steps are done correctly you should be able to view the application in a browser at the following URL: http://localhost:3000/books
 
 ---
 
