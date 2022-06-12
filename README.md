@@ -25,9 +25,9 @@ link to EMTLibraryReactAPP: https://github.com/MarkoZoreski/EMTLibraryReactApp
 ## Main goal of the app
 
 The main goal of the app is for the user to be able to add a new book in a library by specifying the name of the book, category, author and available copies.
-The user should then be able to see all the added books listed and click the "Mark as Taken" button to subtract a book form the available copies.
-If all the available copies are taken the user won't be able to take another book unless the books are restocked by editing them.
-The user can also chose to delete the book, and in doinjg so the book will be removed from the books listed.
+The user should then be able to see all the added books listed and click the "Mark as Taken" button to subtract a book from the available copies.
+If all the available copies are taken the user will not be able to take another book unless the books are restocked by editing them.
+The user can also chose to delete a book, and in doing so the book will be removed from the books listed.
 
 ---
 
@@ -149,6 +149,6 @@ public class BookServiceImpl implements BookService {
 ---
 
 ## Can I view how the app looks without downloading it myself? 
-Checkout how the app looks in the README file of EMTLibraryReactApp
+Check out how the app looks in the README file of EMTLibraryReactApp
 
 link to EMTLibraryReactAPP: https://github.com/MarkoZoreski/EMTLibraryReactApp
