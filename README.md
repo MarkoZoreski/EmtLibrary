@@ -8,7 +8,7 @@ link to EMTLibraryReactAPP: https://github.com/MarkoZoreski/EMTLibraryReactApp
 ---
 ## How to start the applications
 
-1. Download both applications(EmtLibrary and EMTLibraryReact)
+1. Download both applications(EmtLibrary and EMTLibraryReactAPP)
 2. Open EmtLibrary in an IDE and run the app
 3. Open EMTLibraryReact in an IDE and use the terminal or navigate to EMTLibraryReact/libraryreactapp/ in command prompt and enter the following command:
 
