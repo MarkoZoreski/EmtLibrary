@@ -2,7 +2,7 @@
 
 EmtLibrary is a Rest-Api backend aplication for EMTLibraryReact application.
 
-** Note: both of the apps need to be started at the same time for the Program to work **
+*** Note: both of the apps need to be started at the same time for the Program to work ***
 link to EMTLibraryReact: https://github.com/MarkoZoreski/EMTLibraryReactApp
 
 ---
