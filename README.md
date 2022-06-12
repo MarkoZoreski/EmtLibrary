@@ -1,9 +1,9 @@
 # EmtLibrary
 
-EmtLibrary is a Rest-Api backend aplication for EMTLibraryReact application.
+EmtLibrary is a Rest-Api backend aplication for EMTLibraryReactAPP.
 
 **Note: both of the apps need to be started at the same time for the Program to work**
-link to EMTLibraryReact: https://github.com/MarkoZoreski/EMTLibraryReactApp
+link to EMTLibraryReactAPP: https://github.com/MarkoZoreski/EMTLibraryReactApp
 
 ---
 ## How to start the applications
@@ -151,4 +151,4 @@ public class BookServiceImpl implements BookService {
 ## Can I view how the app looks without downloading it myself? 
 Checkout how the app looks in the README file of EMTLibraryReactApp
 
-link to EMTLibraryReact: https://github.com/MarkoZoreski/EMTLibraryReactApp
+link to EMTLibraryReactAPP: https://github.com/MarkoZoreski/EMTLibraryReactApp
